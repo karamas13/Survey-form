@@ -1,0 +1,102 @@
+body {
+  display: flex;
+  justify-content: center;
+  background-image: url("https://images.hdqwalls.com/wallpapers/twenty-one-pilots-5k-jz.jpg");
+  background-size: cover;
+  background-blend-mode: multiply;
+  background-color: rgba(219, 227, 45, 100%) ;
+  flex-direction: column;
+  align-items: center;
+  font-family: Aldrich;
+}
+
+#title{
+  color: white;
+  margin-bottom: 5px;
+  -webkit-text-stroke: 1px black;
+  font-size: 60px;
+}
+
+#description{
+  color: white;
+  font-size: 25px;
+}
+
+
+
+.container{
+    background-color:rgba(125, 130, 21, 90%);
+    width: 500px;
+    height: 1000px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 8.5px;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    font-size: 25px;
+}
+
+#name{
+  width: 95%;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+#email{
+  width: 95%;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+#number{
+  width: 95%;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+#dropdown{
+  width: 97.5%;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  font-size: x-large;
+  
+}
+
+#checkbox{
+  margin-bottom: 10px;
+  
+}
+
+#textarea{
+  margin-bottom: 10px;
+  margin-right 10px;
+  width: 95%;
+}
+
+#submit{
+  width: 100%;
+  background-color: rgb(242, 230, 0);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 25px;
+  border-radius: 10px;
+  font-family: inherit;
+}
+
+  #submit:hover{
+  background-color: rgb(247, 255, 99);
+  font-size: 30px;  
+}
+
+input{
+  font-size: x-large;
+
+}
+
+input[type=checkbox] {
+  width:30px; height:30px;
+  
+}
+
+input[type=radio] {width:30px; height:30px;}

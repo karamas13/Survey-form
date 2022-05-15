@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <link href='https://fonts.googleapis.com/css?family=Aldrich' rel='stylesheet'>
+        <link rel="stylesheet" href="styles.css" />
+      </head>
+      <body> 
+      
+      
+       <h1 id="title"> Twenty One Pilots Survey Form </h1>
+        <p id= "description"> Thank you for your time </p>
+       
+       <div class="container" > 
+        <form id="survey-form">
+          
+          <label for="name" id="name-label">
+            Name </br>
+          <input id="name" placeholder="Enter Your Name" required> </input></br>
+        </label>
+      
+       <label for="email-label" id="email-label">
+         Email </br>
+          <input type="email" id="email" placeholder="Enter Your Email" required> </input></br>
+      </label>
+      
+       <label for="number-label" id="number-label">
+         Age (optional)</br>
+      
+      <input type="number" min="1" max="150" id="number" placeholder="Enter Your Age"></input></br>
+      </label>
+      
+      What type of fan are you? </br>
+      
+      
+      <select name="fans" id="dropdown">
+        <option value="" disabled selected hidden>Select your option</option>
+        <option value="0">New</option>
+        <option value="1">Semi-Involved</option>
+        <option value="2">Old</option>
+        <option value="3">Skeleton Clique</option>
+      </select>
+      
+      </br>
+      
+      Would you recommend the band to other people?
+      
+      </br>
+      
+      <div id="radio">
+      <label for="Yes"> 
+        <input type="radio" id="Yes" name="recommend" value="4"> Yes </input>
+      </label>         
+      
+      </br>
+      
+      <label for="Perhaps">
+        <input type="radio" id="Perhaps" name="recommend" value="5"> Perhaps </input>
+      </label>  
+      
+      </br>
+       
+      <label for="No">
+        <input type="radio" id="No" name="recommend" value="6"> No </input>
+      </label>         
+      
+      </div>
+      
+      </br>
+      
+      Which are your favourite albums?
+      
+      </br>
+      <div id="checkbox">
+      <input type="checkbox" id="self-titled" name="self-titled" value="7">
+      <label for="self-titled">Self-Titled</label><br>
+      
+      <input type="checkbox" id="regional-at-best" name="regional-at-best" value="regional-at-best">
+      <label for="8"> Regional At Best</label><br>
+      
+      <input type="checkbox" id="vessel" name="vessel" value="vessel">
+      <label for="9">Vessel</label><br>
+      
+      <input type="checkbox" id="blurry-face" name="blurry-face" value="10">
+      <label for="blurry-face">Blurry Face</label><br>
+      
+      <input type="checkbox" id="trench" name="trench" value="trench">
+      <label for="11">Trench</label><br>
+      
+      <input type="checkbox" id="scaled-and-icy" name="scaled-and-icy" value="scaled-and-icy">
+      <label for="12">Scaled and Icy</label><br>
+      
+      </div>  
+       
+      Any comments or suggestions?
+      
+      <textarea placeholder="Add Comments" style="resize: none;" id="textarea" name="textarea" rows="5" cols="40">
+      </textarea>
+      
+      </br>
+      
+      
+      <button type="submit" id="submit"><strong>Submit</strong></button
+      
+        
+        </form>
+      
+        </div>
+      
+      </body>
+
+</html>
